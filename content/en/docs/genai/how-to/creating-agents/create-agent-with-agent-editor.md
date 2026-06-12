@@ -38,7 +38,7 @@ Create and configure the required Model and Agent documents in Studio Pro, inclu
 
 6. In the **App Explorer**, right-click your module and select **Add other** > **Agent**. Set a clear name, for example, `IT_Ticket_Helper`.
 
-7. In the **Model** section, in the **Resource** field, select the Model document you created in the previous steps. In the **Version** field, select the model version you want to use, for example `Anthropic Claude Sonnet V4`.
+7. In the **Model** section, in the **Resource** field, select the Model document you created in the previous steps. In the **Version** field, select the model version you want to use, for example `Anthropic Claude Sonnet V4.6`.
 
 8. For the **Context entity**, select the `TicketHelper` entity created in [Set Up Your App for Agent Creation](/agents/how-to/creating-agents/shared-setup/#domain-model-setup). This entity contains an attribute `UserInput` that matches the variable placeholder.
 
