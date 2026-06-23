@@ -34,7 +34,7 @@ Create and configure the required Model and Agent documents in Studio Pro, inclu
 
 4. In the **Configurations** tab of **App Settings**, add a new configuration that sets the constant's value to your text generation [resource key](/agents/mx-cloud-genai/Navigate-MxGenAI/#keys) from the Mendix Cloud GenAI Portal.
 
-5. Click **List Models** to verify that the model resource can be reached.
+5. Click **List Models** to verify that the model resource can be reached. A table shows containing the models available in the resource.
 
 6. In the **App Explorer**, right-click your module and select **Add other** > **Agent**. Set a clear name, for example, `IT_Ticket_Helper`.
 

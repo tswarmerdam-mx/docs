@@ -119,7 +119,7 @@ Model configuration is document-based and can be managed directly in Studio Pro:
 * Add a Model document from the **App Explorer** at the module level. Right-click the module or folder where you want to create your Model document, select **Add other**, and find Model in the bottom section.
 * Configure the **Model key** with a String constant that contains the key for a Text Generation resource. Obtain this key from the [Mendix Cloud GenAI Portal](https://genai.home.mendix.com).
 * After you select the key, model metadata is imported and shown in the editor.
-* Validate the connectivity by clicking **List Models**.
+* Validate the connectivity by clicking **List Models**. A table shows containing the models available in the resource.
 
 {{% alert color="info" %}}
 The value you use for the constant in Studio Pro can be different from the value used in cloud environments. Constant values can be overridden per environment during deployment. For example, you can locally connect to a text generation resource using a different key than the one used for production.
